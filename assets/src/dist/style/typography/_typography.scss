@@ -1,0 +1,19 @@
+.h1 {
+	font-size: 1.875rem;
+	color: $primary;
+	line-height: 1.2;
+	text-transform: uppercase;
+	padding-bottom: 1.25rem;
+	margin-bottom: 4.375rem;
+	&_underline {
+		border-bottom: 4px solid $primary;
+	}
+}
+
+.h2 {
+
+}
+
+
+
+@import "typography-mediaqueries";

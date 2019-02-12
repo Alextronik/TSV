@@ -1,0 +1,61 @@
+.header {
+	background-color: $primary;
+	&__top {
+		padding-top: 1.75rem;
+		padding-bottom: 1.75rem;
+	}
+	&__tel {
+		color: white;
+		font-size: 1.5rem;
+		transition: $animation-time-sm;
+
+		&:hover,
+		&:focus {
+			color: $orange;
+			text-decoration: none;
+		}
+	}
+	.navbar {
+		background-color: $bg-secondary;
+	}
+	.navbar-nav {
+		.nav-link {
+			font-size: 1.5rem;
+			line-height: 1.2;
+			color: white;
+			border-bottom: 4px solid transparent;
+			transition: $animation-time-sm;
+			&:hover {
+				color: $orange;
+			}
+		}
+		.nav-item {
+			display: flex;
+			align-items: center;
+			&.active {
+				.nav-link {
+					border-color: $orange;
+					&:hover {
+						color: white;
+					}
+				}
+			}
+		}
+	}
+	.header__search {
+		margin-left: 1rem;
+		width: 250px;
+		.form-group {
+			margin-bottom: 0;
+		}
+		.form-control {
+
+		}
+	}
+}
+
+
+
+
+
+@import "header-mediaqueries";

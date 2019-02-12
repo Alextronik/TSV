@@ -1,0 +1,19 @@
+.logo {
+	display: flex;
+	&__caption {
+		color: $orange;
+		font-size: 1.125rem;
+		line-height: 1.2;
+	}
+	&__img {
+		display: flex;
+		align-items: center;
+		margin-right: 1.625rem;
+	}
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
+}
+
+@import "logo-mediaqueries";

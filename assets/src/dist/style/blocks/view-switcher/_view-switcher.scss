@@ -1,0 +1,33 @@
+.view-switcher {
+	&__item {
+		border-color: transparent;
+		background-color: transparent;
+		cursor: pointer;
+		&_type_list {
+			&.active,
+			&:hover,
+			&:focus {
+				outline: none;
+				.icon_list {
+					background-position: -71px;
+				}
+			}
+			&.active {
+				cursor: default;
+			}
+		}
+		&_type_grid {
+			&.active,
+			&:hover,
+			&:focus {
+				outline: none;
+				.icon_grid {
+					background-position: -21px;
+				}
+			}
+			&.active {
+				cursor: default;
+			}
+		}
+	}
+}

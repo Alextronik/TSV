@@ -1,0 +1,24 @@
+@media (max-width: $screen-width-md) {
+    .header {
+        .navbar {
+        	padding-top: 0.5rem;
+        	padding-bottom: 0.5rem;
+        }
+        .navbar-nav {
+        	.nav-link {
+				font-size: 1rem;
+        	}
+        }
+        .header__search {
+        	margin-left: 0;
+        	margin-bottom: 0.5rem;
+        	width: 100%;
+        }
+    }
+}
+
+@media (max-width: $screen-width-sm) {
+    .header__tel {
+        font-size: 1rem;
+    }
+}

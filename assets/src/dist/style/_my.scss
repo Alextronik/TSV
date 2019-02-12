@@ -1,0 +1,53 @@
+//ШРИФТЫ
+@import "fonts/fonts";
+
+
+//ИКОНКИ
+@import "icons/icons";
+
+
+//ОБЩИЕ СТИЛИ ВСЕХ СТРАНИЦ
+
+//типографика
+@import "typography/typography";
+
+//БЛОКИ 
+
+// хедер
+@import "blocks/header/header";
+// собственные стили слайдера
+@import "blocks/slick-carousel/slick-carousel";
+// лого
+@import "blocks/logo/logo";
+// главный слайдер
+@import "blocks/main-slider/main-slider";
+// кнопки
+@import "blocks/btn/btn";
+// контент страницы
+@import "blocks/page-content/page-content";
+// карточка продукта
+@import "blocks/card-product/card-product";
+// футер
+@import "blocks/footer/footer";
+// модальное окно
+@import "blocks/modal/modal";
+// большой заголовок страницы
+@import "blocks/page-title/page-title";
+// навигация по каталогу
+@import "blocks/page-nav/page-nav";
+// текст страницы
+@import "blocks/page-text/page-text";
+// смена просмотра
+@import "blocks/view-switcher/view-switcher";
+// список позиций
+@import "blocks/snippet-list/snippet-list";
+// список карточка позиции
+@import "blocks/snippet-card/snippet-card";
+// УТИЛИТЫ
+// пространство
+@import "utilities/utilities";
+
+
+// СТРАНИЦЫ
+// главная
+@import "pages/index/index";

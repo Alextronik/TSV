@@ -1,0 +1,30 @@
+@media (max-width: $screen-width-md) {
+    .footer {
+        &__btn-group {
+	
+            .btn {
+            	padding: 0.5rem 0.875rem;
+
+            }
+        }
+    }
+}
+@media (max-width: $screen-width-sm) {
+	.footer {
+        &__btn-group {
+        	flex-direction: column;
+        	.btn {
+        		margin-bottom: 1rem;
+        	}
+        }
+        &-bottom {
+        	&__list {
+				flex-direction: column;
+				align-items: flex-end;
+        	}
+        	&__itm {
+        		padding: 0.25rem 0;
+        	}
+        }
+    }
+}

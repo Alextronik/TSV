@@ -1,0 +1,72 @@
+.footer {
+	&__top {
+		padding-top: 3.25rem;
+		padding-bottom: 3.25rem;
+		background-color: $bg-footer;
+	}
+	&__btn-group {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__tel {
+		font-size: 1.125rem;
+		color: white;
+		&:hover,
+		&:focus {
+			text-decoration: none;
+		}
+	}
+	&__info {
+		text-align: right;
+	}
+	&__list {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		color: white;
+		font-size: 0.75rem;
+		display: flex;
+		flex-direction: column;
+	}
+	&__text {
+		color: white;
+		&:hover,
+		&:focus {
+			text-decoration: none;
+		}
+	}
+	&-bottom {
+		background-color: #3a414c;
+		padding: 1.125rem 0;
+		&__list {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			display: flex;
+		}
+		&__itm {
+			padding: 0 0.5rem;
+			&:first-child {
+				padding-left: 0;
+			}
+			&:last-child {
+				padding-right: 0;
+			}
+		}
+		&__text {
+			color: rgb(200, 200, 200);
+			font-size: 0.6875rem;
+			line-height: 1.2;
+			&_link {
+				text-decoration: underline;
+				&:hover,
+				&:focus {
+					color: $orange;
+				}
+			}
+		}
+	}
+}
+
+
+@import "footer-mediaqueries";

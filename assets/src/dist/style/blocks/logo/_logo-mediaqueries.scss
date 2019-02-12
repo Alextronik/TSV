@@ -1,0 +1,18 @@
+@media (max-width: $screen-width-sm) {
+	.logo {
+		&__caption {
+			font-size: 0.875rem;
+		}
+	}
+}
+
+@media (max-width: $screen-width-xs) {
+	.logo {
+		flex-direction: column;
+		align-items: center;
+		&__caption {
+			margin-top: 0.75rem;
+			text-align: center;
+		}
+	}
+}

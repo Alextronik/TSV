@@ -1,0 +1,8 @@
+.page-text {
+  font-size: 1rem;
+  line-height: 1.2;
+  color: $primary;
+  padding-bottom: 10rem;
+}
+
+@import "page-text-mediaqueries";

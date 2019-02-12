@@ -1,0 +1,13 @@
+.snippet-list {
+	display: flex;
+	&_type_vertical {
+		flex-direction: column;
+	}
+	&_type_grid {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+}
+
+@import "snippet-list-mediaqueries";

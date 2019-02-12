@@ -1,0 +1,11 @@
+.main-slider {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	&__img {
+		img {
+			width: 100%;
+			object-fit: fill;
+		}
+	}
+}

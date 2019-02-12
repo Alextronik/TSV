@@ -1,0 +1,10 @@
+@media (max-width: $screen-width-xs) {
+	.page-nav {
+		&__dropdown .dropdown-toggle {
+			font-size: 1rem;
+		}
+		&__link {
+			font-size: 1rem;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+.btn {
+	&-secondary {
+		color: white;
+	}
+	&-white {
+		border-color: white;
+		border-width: 3px;
+		color: white;
+		&:hover,
+		&:focus {
+			color: white;
+			background-color: $primary-hover;
+			border-color: $primary-hover;
+		}
+		.btn-primary:focus {
+    		box-shadow: 0 0 0 0.2rem rgba(99,118,154,.5);
+		}
+
+	}
+}
