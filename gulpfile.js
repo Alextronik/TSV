@@ -171,7 +171,7 @@ gulp.task('clean:prodaction', function () {
 gulp.task('critical', function() {
   return gulp
     .src('assets/build/*.html')
-    .pipe(critical({base: 'assets/build/', inline: true, css: ['assets/build/css/main.css']}))
+    .pipe(critical({base: 'assets/build/', inline: true, css: ['assets/build/dist/css/main.css']}))
     .on('error', function(err) {
       log.error(err.message);
     })
